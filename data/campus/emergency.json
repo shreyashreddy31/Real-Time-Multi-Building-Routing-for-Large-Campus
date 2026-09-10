@@ -1,0 +1,42 @@
+[
+  {
+    "id": "campus_hospital",
+    "name": "Campus Hospital & Medical Center",
+    "type": "hospital",
+    "lat": 28.5415,
+    "lng": 77.1975,
+    "node_id": "medical_center",
+    "services": ["ambulance", "first_aid", "emergency"],
+    "vehicles": ["ambulance_1", "ambulance_2"]
+  },
+  {
+    "id": "fire_station",
+    "name": "Campus Fire Station",
+    "type": "fire_station",
+    "lat": 28.5410,
+    "lng": 77.1960,
+    "node_id": "fire_station",
+    "services": ["fire_engine", "rescue"],
+    "vehicles": ["fire_truck_1", "fire_truck_2"]
+  },
+  {
+    "id": "police_post",
+    "name": "Campus Police Post",
+    "type": "police",
+    "lat": 28.5405,
+    "lng": 77.1930,
+    "node_id": "police_post",
+    "services": ["patrol", "security"],
+    "vehicles": ["patrol_car_1", "patrol_car_2", "patrol_car_3"]
+  },
+  {
+    "id": "security_office",
+    "name": "Main Security Office",
+    "type": "security",
+    "lat": 28.5405,
+    "lng": 77.1920,
+    "node_id": "security_office",
+    "services": ["security", "escort"],
+    "vehicles": ["security_vehicle_1", "security_vehicle_2", "security_vehicle_3", "security_vehicle_4"]
+  }
+]

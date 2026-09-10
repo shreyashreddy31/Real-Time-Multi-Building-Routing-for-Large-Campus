@@ -1,0 +1,68 @@
+[
+  {
+    "id": "main_parking",
+    "name": "Main Parking",
+    "lat": 28.5405,
+    "lng": 77.1920,
+    "total_spaces": 200,
+    "occupied": 142,
+    "ev_spaces": 20,
+    "type": "general",
+    "nearby_node": "main_gate"
+  },
+  {
+    "id": "library_parking",
+    "name": "Library Parking",
+    "lat": 28.5465,
+    "lng": 77.1935,
+    "total_spaces": 80,
+    "occupied": 58,
+    "ev_spaces": 10,
+    "type": "general",
+    "nearby_node": "central_library"
+  },
+  {
+    "id": "hostel_parking",
+    "name": "Hostel Parking",
+    "lat": 28.5540,
+    "lng": 77.1950,
+    "total_spaces": 120,
+    "occupied": 89,
+    "ev_spaces": 8,
+    "type": "general",
+    "nearby_node": "boys_hostel_1"
+  },
+  {
+    "id": "staff_parking",
+    "name": "Staff Parking",
+    "lat": 28.5450,
+    "lng": 77.1940,
+    "total_spaces": 60,
+    "occupied": 45,
+    "ev_spaces": 6,
+    "type": "staff",
+    "nearby_node": "administration"
+  },
+  {
+    "id": "visitor_parking",
+    "name": "Visitor Parking",
+    "lat": 28.5465,
+    "lng": 77.1990,
+    "total_spaces": 40,
+    "occupied": 12,
+    "ev_spaces": 4,
+    "type": "visitor",
+    "nearby_node": "guest_house"
+  },
+  {
+    "id": "ev_parking",
+    "name": "EV Charging Parking",
+    "lat": 28.5420,
+    "lng": 77.1915,
+    "total_spaces": 30,
+    "occupied": 18,
+    "ev_spaces": 30,
+    "type": "ev",
+    "nearby_node": "ev_charging_1"
+  }
+]
