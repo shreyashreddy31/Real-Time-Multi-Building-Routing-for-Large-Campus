@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://real-time-multi-building-routing-for-t71s.onrender.com/api',
+  baseURL: 'https://real-time-multi-building-routing-for-ca5u.onrender.com/api',
 });
 
 export const getNetwork = async () => (await api.get('/network')).data;
