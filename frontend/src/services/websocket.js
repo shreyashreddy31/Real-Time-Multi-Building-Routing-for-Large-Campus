@@ -8,9 +8,7 @@ class WebSocketManager {
   }
 
   connect() {
-    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-    const host = window.location.host;
-    const url = `${protocol}//${host}/ws`;
+    const url = 'wss://real-time-multi-building-routing-for-t71s.onrender.com/ws';
 
     this.ws = new WebSocket(url);
 
